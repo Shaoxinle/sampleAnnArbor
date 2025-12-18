@@ -1,0 +1,209 @@
+body {
+
+    background-color: #dedede;
+}
+
+header nav {
+    background-color: lightblue;
+    width: 100%;
+    /* 关键：让导航容器占满header的横向宽度 */
+}
+
+header nav ul {
+    list-style: none;
+    /* 去掉默认圆点 */
+    padding: 0 90px;
+    /* 清除默认内边距 */
+    margin: 0px;
+    /* 清除默认外边距 */
+    width: 100%;
+    /* ul占满nav的宽度（关键） */
+    display: flex;
+    /* 启用flex布局 */
+    box-sizing: border-box;
+    justify-content: space-between;
+    /* 核心：三个li分别贴左、居中、贴右 */
+    align-items: center;
+    /* 可选：让链接垂直居中，更美观 */
+
+
+}
+
+/* 2. 可选：调整列表项的点击区域/样式 */
+header nav li {
+
+    text-align: justify;
+    padding: 8px 0;
+    /* 增加li的垂直高度，扩大点击范围 */
+
+}
+
+/* 3. 控制链接样式（横向排列后的优化） */
+header nav a {
+    /*display:table-cell;*/
+
+    display: inline;
+    gap: 30px;
+    align-items: align;
+    color: #850caa;
+    /* 链接文字颜色 */
+    text-decoration: underline;
+    /* 去掉下划线 */
+    font-size: 32px;
+    font-family: Arial, sans-serif;
+    padding: 8px 12px;
+    /* 增加链接的点击区域 */
+    border-radius: 4px;
+    /* 圆角（可选，更美观） */
+}
+
+/* 可选：鼠标悬停效果（提升交互） */
+header nav a:hover {
+    background-color: #f0f0f0;
+    /* 悬停浅灰背景 */
+    color: #2288dd;
+    /* 悬停文字变蓝 */
+}
+
+h1 {
+    /* 花体字体优先级：Brush Script MT（Win）> Lucida Calligraphy（Win）> Segoe Script（Win）> Apple Chancery（Mac）> 通用花体 */
+    font-family: "Brush Script MT", "Lucida Calligraphy", "Segoe Script", "Apple Chancery", cursive;
+    font-size: 80px;
+    /* 可选：调整字号，更突出花体 */
+    color: #8b4513;
+    /* 可选：复古棕，适配春日主题 */
+    text-align: center;
+    /* 可选：让h1居中，视觉更协调 */
+    margin: 20px 0;
+    /* 可选：调整上下间距 */
+    color: darkviolet;
+}
+
+img {
+    width: 15%;
+
+}
+
+div {
+    background-color: rgb(251, 255, 0);
+}
+
+main p {
+    line-height: 1.5;
+    /* 1.5倍行距，也可写150%，但无单位更灵活 */
+    font-size: 35px;
+    /* 可选：统一p的字体大小，行距会基于此计算 */
+    margin: 0 0 16px 0;
+    /* 可选：p之间的默认间距，避免拥挤 */
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin-bottom: 30px;
+}
+
+footer p {
+    margin-top: 90px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+main {
+    border: 5px #000 solid;
+    margin: 10px;
+}
+ */
+/* 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+ */
+/* img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+} */
+
+/* .child {
+    position: relative;
+    display: inline-block;
+    border: 5px black solid;
+    margin: 5px;
+    border-radius: 5px;
+} */
+
+/* 
+
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 25px;
+}
+ */
+/* 
+.button:hover {
+    background-color:#fff;
+} */
+
+/* 
+footer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+header {
+    border-radius: 5px;
+    border: 5px #000 solid;
+    margin: 10px;
+} */
+
+/* 
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.child:hover .label {
+    display: block;
+} */
